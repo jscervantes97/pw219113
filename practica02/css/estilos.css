@@ -1,4 +1,4 @@
-body{
+ body{
 	font-size: 16px;
 	margin: 0px auto;
 	/*Recomendacion del Cliente*/
@@ -27,6 +27,11 @@ header nav ul li{
 
 	/* text-decoration: underline; */
 }
+footer{
+	color : white ;
+	background:#4267B3 ;
+	display: inline-block;
+}
 #bgoffer{
 	position: relative;
 	top:-408px;
@@ -40,6 +45,7 @@ header nav ul li{
 	float: right;
 
 }
+
 #primerSeccion{
 	margin-top: 60px;
 	height: 318px;
@@ -70,6 +76,33 @@ header nav ul li{
 #segundaSeccion article{
 	text-align: right;
 	margin-right:  165px;
+}
+#terceraSeccion article {
+	width: 23%;
+	display: inline-block; 
+	vertical-align:  top ;
+}
+#terceraSeccion article img {
+	vertical-align: middle; 
+}
+#terceraSeccion article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	background:#8BC500; 
+	color :white;
+}
+#secc03art04{
+	/*margin-top: 40px;
+
+	*/
+	padding-top: 40px;
+}
+.colorazul{
+	color:#4267B3;
+}
+.colorverde{
+	color:#8BC500;
 }
 .colorrosa{
 	color: #FF0099;
