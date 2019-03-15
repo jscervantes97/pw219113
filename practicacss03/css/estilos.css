@@ -98,20 +98,42 @@ footer{
 	*/
 	padding-top: 40px;
 }
-.colorazul{
+.colorAzul{
 	color:#4267B3;
 }
-.colorverde{
-	color:#8BC500;
+.colorVerde{
+	color:#acd13b;;
 }
-.colorrosa{
+.colorRojo{
 	color: #FF0099;
-
 }
-.letragrande{
+.colorosa{
+	color: #FF0099;
+}
+.FondoBlanco{
+	/*color:#acd13b;;*/
+	background-color:#e4e4e4;
+}
+.FondoGris{
+	/*color:#acd13b;;*/
+	background-color:#e4e4e4;;
+}
+.FondoNegro{
+	/*color:#acd13b;;*/
+	background-color:#2b2b2b;
+}
+.FondoRojo{
+	/*color:#acd13b;;*/
+	background-color:#e80038;
+}
+.FondoVerde{
+	/*color:#acd13b;;*/
+	background-color:#abd233;
+}
+.letraGrande{
 	font-size: 3.5em;
 }
-.letramediana{
+.letraMediana{
 	font-size: 2em;
 }
 .nito{
