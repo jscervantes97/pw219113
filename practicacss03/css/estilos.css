@@ -1,105 +1,100 @@
  body{
-	font-size: 16px;
-	margin: 0px auto;
-	/*Recomendacion del Cliente*/
-	min-width: 1078px ;
-	max-width: 1078px ;
-
-}
-header input{
-	float: right;
-	margin-top: 15px;
-	margin-right: -200px;
-	position: relative; 
-}
-header nav{
-	/*align-items: center ;*/
-	margin-left: 220px ;
-	
-}
-header nav ul li{
-	border-bottom: 1px solid lightgray ;
-	color: gray ;
-	display: inline-block; 
-	font-size: 1.8em;
-	margin-right: 15px ;
-	padding-bottom: 2px ;
-
-	/* text-decoration: underline; */
+	background: #2b2b2b;
+    background-color: #2b2b2b;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px auto;
+    max-width: 1175px;
 }
 footer{
-	color : white ;
-	background:#4267B3 ;
-	display: block;
+    color: #838383;
 }
-#bgoffer{
-	position: relative;
-	top:-408px;
-	left: -35px;
+footer article{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    border-top: 1px dashed gray;
+    margin-top: 17px;    
+    width: 28%;
+    border-top: 1.5px dashed gray;
+    margin-top: 17px;
+    margin-left: 11px;
+    padding-left: 4%;
+    padding-top: 12px;
 }
-#granthams{
-	margin-left: 25px;
-	margin-top: 25px;
+header{
+    padding-top: 7px;
+    background: #f0f0f0;
 }
-#paint{
-	float: right;
-
+header img{
+    margin-top: 5px;
+    /*margin-top: 5px;*/
+    width: 896px;
+    height: 47px;
+    margin-left: 30px;
+    margin-left: 53.5px;
 }
-
-#primerSeccion{
-	margin-top: 60px;
-	height: 318px;
-	margin-top: 60px;
+header input{
+    margin-top: 5px;
+    float: left;
+    margin-left: 35px;
+    position: relative;
+    width: 139px;
 }
-#primerSeccion article {
-	display: inline-block;
-	vertical-align: top;
+#seccion1{
+    margin-top: 17px;
 }
-#secc01art01{
-	margin-left: 30px;
-	width: 60% ;
-
+#seccion1 article{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: -10px;
+    width: 210px;
+    height: 340px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 8px;
+    margin-left: -4.3px;
 }
-#secc01art02{
-	margin-left: 50px;
-	width: 30% ;
-	
+#seccion01art01 img{
+	margin-top: -10px;
+    width: 195px;
 }
-#secc01art02 ul{
-	list-style:none ;
-	margin-left: -40px;	
+#seccion01art01 ul{
+    list-style: none;
 }
-#secc01art02 ul li:before{
-	content: "•";
-	color: #FF0099;
+#seccion01art01 ul li{
+    content: none;
+    padding-top: 10px;
 }
-#segundaSeccion article{
-	text-align: right;
-	margin-right:  165px;
+#seccion2{
+    border-top: 1px solid gray;
+    margin-top: 19px;
 }
-#terceraSeccion article {
-	width: 23%;
-	display: inline-block; 
-	vertical-align:  top ;
+#seccion2 article{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-top: 27px;
 }
-#terceraSeccion article img {
-	vertical-align: middle; 
-}
-#terceraSeccion article input{
-	border-radius: 5px;
-}
-#terceraSeccion article input[type="button"]{
-	background:#8BC500; 
-	color :white;
-}
-#secc03art04{
-	/*margin-top: 40px;
-
-	*/
-	padding-top: 40px;
+#seccion2 article img{
+	padding-left: 60px;
+    width: 262px;
+    width: 282px;
 }
 .colorAzul{
 	color:#4267B3;
+}
+.colorBlanco{
+	color:#e4e4e4;
+	color: white;
+}
+.colorgris{
+    color: #a1a1a1;
+    color: #b8b5b5;
+}
+.colorgris2{
+color: #9e9e9e;
 }
 .colorVerde{
 	color:#acd13b;;
@@ -112,11 +107,11 @@ footer{
 }
 .FondoBlanco{
 	/*color:#acd13b;;*/
-	background-color:#e4e4e4;
+	background-color:#e7e7e7;
 }
 .FondoGris{
 	/*color:#acd13b;;*/
-	background-color:#e4e4e4;;
+	background-color:#545454;
 }
 .FondoNegro{
 	/*color:#acd13b;;*/
@@ -130,14 +125,55 @@ footer{
 	/*color:#acd13b;;*/
 	background-color:#abd233;
 }
-.letraGrande{
-	font-size: 3.5em;
+.letragrande{
+    font-size: 2em;
+    font-size: 1.7em;
 }
-.letraMediana{
-	font-size: 2em;
+.letrachica{
+    font-size: 0.9em;
+}
+.muevele{
+	padding-left:220px;
 }
 .nito{
-	font-weight: bold ; 
+    font-weight: bold;
+    font-weight: 565;
+} 
+.SpanAbajo1{
+    background: #7b961dce;
+    width: 9px;
+    height: 18px;
+    left: 754px;
+    top: 394px;
+    position: absolute;
+    padding: 11px;
+}
+.SpanAbajo2{
+    background: #3f3f3fda;
+    width: 9px;
+    height: 18px;
+    left: 986px;
+    top: 394px;
+    position: absolute;
+    padding: 11px;
+}
+.SpanAbajo3{
+    background: #b90a1cde;
+    width: 9px;
+    height: 18px;
+    left: 1220px;
+    top: 394px;
+    position: absolute;
+    padding: 11px;
+}
+.SpanAbajo4{
+    background: #c4c2c2;
+    width: 9px;
+    height: 18px;
+    left: 1452px;
+    top: 394px;
+    position: absolute;
+    padding: 11px;
 }
 
 
