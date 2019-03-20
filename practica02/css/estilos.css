@@ -32,6 +32,7 @@ footer{
 	background:#4267B3 ;
 	display: block;
 }
+
 #bgoffer{
 	position: relative;
 	top:-408px;
@@ -47,9 +48,7 @@ footer{
 }
 
 #primerSeccion{
-	margin-top: 60px;
-	height: 318px;
-	margin-top: 60px;
+	width: 400px;
 }
 #primerSeccion article {
 	display: inline-block;
