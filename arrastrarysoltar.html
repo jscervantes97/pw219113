@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"></meta>
+	<title>Arrastrar y Soltar</title>
+</head>
+<body>
+	<h2> Arrastrar y Soltar </h2>
+	<div id="div1">
+		<img src="logo.png" height="31" width="88" draggable="true" ondragstart="drag(event)" id="arrastrable1">
+		<img src="logo.png" height="31" width="88" draggable="true" ondragstart="drag(event)" id="arrastrable2">
+		<img src="logo.png" height="31" width="88" draggable="true" ondragstart="drag(event)" id="arrastrable3">
+		<img src="logo.png" height="31" width="88" draggable="true" ondragstart="drag(event)" id="arrastrable4">
+	</div>
+	<div id="div2" ondragover="allowDrop(event)" ondrop="drop(event)">
+		
+	</div>
+</body>
+</html>
