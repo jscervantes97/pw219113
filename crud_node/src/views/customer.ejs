@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<tittle>CRUD NODEJS MySQl</tittle>
+</head>
+<body>
+	<table border=1>
+		<thead>
+			<tr>
+				<th>No.</th>
+				<th>Nombre</th>
+				<th>Direccion</th>
+				<th>Telefono</th>
+				<th>Acciones</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% if(data){ %>
+				<% for(var i = 0 ; i < data.length; i++){    %>
+				 <tr>
+					 <td><%= (i+1) %></td>
+					 <td><%= data[i].name %></td>
+					 <td><%= data[i].address %></td>
+					 <td><%= data[i].phone %></td>
+				 </tr>
+				<% } %>
+			<% } %>
+		</tbody>
+	</table>
+</body>
+</html>
