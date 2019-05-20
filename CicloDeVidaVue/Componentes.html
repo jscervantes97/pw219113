@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Componentes de Vuejs</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="componentes/saludos.js"></script>
+	<script src="componentes/contador.js"></script>
+</head>
+<body>
+
+	<div id="app">
+		<saludo></saludo>
+		<contador></contador>
+
+	</div>
+
+	<script>
+		const app = new Vue({
+			el : '#app'
+		})
+	</script>
+
+</body>
+</html>
